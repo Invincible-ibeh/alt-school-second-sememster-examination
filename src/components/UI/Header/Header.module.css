@@ -1,0 +1,116 @@
+.header {
+   display: flex;
+   background-color: #213d2b;
+   justify-content: space-between;
+   padding: 1rem;
+   position: sticky;
+   top: 0;
+   width: 100%;
+   z-index: 10;
+}
+
+.header > a {
+   display: block;
+   max-width: 120px;
+   color: white;
+   font-size: 2rem;
+}
+
+.header ul {
+   display: none;
+}
+
+ul.flex {
+   color: white;
+   display: flex;
+   font-size: 1.5rem;
+   flex-direction: column;
+   list-style: none;
+   padding: 1rem 0 3.5rem;
+   row-gap: 1rem;
+}
+
+/* styles for nav bar */
+.nav-bar {
+   align-items: center;
+   display: flex;
+   max-width: 20rem;
+   width: 100%;
+}
+.header .nav-bar {
+   justify-content: flex-end;
+}
+
+.active > span {
+   color: #ea1d5d;
+}
+
+.active.unselected > span {
+   color: white;
+}
+
+.nav-bar__link {
+   display: flex;
+   align-items: center;
+   column-gap: 10px;
+   color: #fff;
+   line-height: 1.5rem;
+   padding: 5px;
+   font-size: 10px;
+}
+
+.nav-bar__list--after {
+   display: none;
+}
+
+/* styles fot nva menu btn */
+.menu-btn {
+   display: flex;
+   width: 5.5vw;
+}
+
+.menu-btn img {
+   position: relative;
+   z-index: 20;
+   width: 100%;
+}
+
+.repo-count {
+   border-radius: 50%;
+   background-color: #484848;
+   padding: 5px;
+   color: #eac71d;
+}
+
+@media screen and (min-width: 425px) {
+   .header > a {
+      max-width: 150px;
+   }
+
+   .nav-bar__link {
+      font-size: 11px;
+   }
+}
+@media screen and (min-width: 480px) {
+   .nav-bar__link {
+      font-size: 16px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .header ul {
+      display: flex;
+      column-gap:10px;
+   }
+   .nav-bar {
+      max-width: 32rem;
+   }
+
+   .nav-bar__link {
+      font-size: 20px;
+   }
+
+   .header > a {
+      max-width: 220px;
+   }
+}

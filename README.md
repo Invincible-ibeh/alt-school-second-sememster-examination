@@ -1,3 +1,6 @@
+# Solution to AltSchool second semester examination
+## Live Link: [Ibeh Miracle AltSchool Second Semester Exam Solution](https://altschoolsecondsemesterexam.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

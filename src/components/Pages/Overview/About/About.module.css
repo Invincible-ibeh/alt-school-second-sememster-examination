@@ -1,0 +1,59 @@
+.about-section--main {
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+}
+
+.about-section__title {
+   padding: 2rem 0 0;
+   color: yellow;
+   font-size: 2rem;
+   text-align: center;
+}
+
+.about-section__text {
+   background-color: rgb(240, 239, 239);
+   border-radius: 1rem;
+   box-shadow: 10px 10px 10px 0px rgb(83 6 6 / 24%);
+   -webkit-box-shadow: 10px 10px 10px 0px rgb(83 6 6 / 24%);
+   -moz-box-shadow: 10px 10px 10px 0px rgba(83, 6, 6, 0.24);
+   margin: 1rem auto;
+   max-width: 25rem;
+   padding: 1rem;
+   text-align: center;
+}
+
+.bio {
+   line-height: 1.8rem;
+}
+
+.about-section__text-text--sub {
+   font-size: 3rem;
+}
+
+.about-section__text-text--main {
+   color: #ea1d5d;
+}
+
+.about-section__text__paragraph {
+   color: #ea1d5d;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.about-contact-btn {
+   margin: 0 auto;
+   max-width: 10rem;
+   padding: 2rem 0;
+}
+
+.about-contact-btn .contact-btn-link {
+   font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+   .about-section__text {
+      max-width: 40rem;
+      padding: 3rem;
+   }
+}

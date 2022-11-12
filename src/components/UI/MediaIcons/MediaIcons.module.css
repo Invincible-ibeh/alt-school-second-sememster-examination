@@ -1,0 +1,13 @@
+.social-media {
+   column-gap: 1.5rem;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   background-color: rgb(240, 239, 239);
+   padding: 0.5rem;
+   border-radius: 1rem;
+   box-shadow: 10px 10px 10px 0px rgb(83 6 6 / 24%);
+   -webkit-box-shadow: 10px 10px 10px 0px rgb(83 6 6 / 24%);
+   -moz-box-shadow: 10px 10px 10px 0px rgba(83, 6, 6, 0.24);
+   margin-top: 1rem;
+}

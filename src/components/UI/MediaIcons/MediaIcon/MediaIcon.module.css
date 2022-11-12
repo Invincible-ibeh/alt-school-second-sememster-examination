@@ -1,0 +1,16 @@
+.social-media__link {
+   height: 2.2rem;
+   background: #fff;
+   display: flex;
+   padding: 0;
+   border-radius: 50%;
+   width: 2.2rem;
+   justify-content: center;
+   transition: 0.5s;
+   border: 3px solid #fff;
+}
+
+.social-media__link:hover {
+	transform: scale(1.5);
+	border: 3px solid #ea1e5e;
+}

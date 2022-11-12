@@ -1,0 +1,48 @@
+.main {
+   width: 100%;
+   max-width: 1000px;
+   margin: 5rem auto;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.8);
+   border-radius: 20px;
+   padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   row-gap: 2rem;
+}
+
+.text {
+   font-size: 2.5rem;
+   color: #ea1d5d;
+   font-weight: bold;
+}
+
+.errorMsg {
+   color: #fff;
+   font-size: 25px;
+}
+
+.myButton {
+   font-family: 'Montserrat Alternates', sans-serif;
+   border-radius: 12px;
+   display: inline-block;
+   cursor: pointer;
+   color: #fff;
+   background: #000;
+   font-size: 2rem;
+   font-weight: bold;
+   padding: 32px 10px;
+   text-decoration: none;
+   width: 100%;
+   max-width: 22rem;
+   margin: 0 auto;
+}
+
+.myButton:hover {
+   background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+   background-color: #408c99;
+}
+.myButton:active {
+   position: relative;
+   top: 1px;
+}
